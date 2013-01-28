@@ -1,4 +1,7 @@
- 
+
+ Hare And Puma
+ -------------
+
  hare_puma calculates the following PDEs for the distribution of hares and
  pumas on an island.
  
