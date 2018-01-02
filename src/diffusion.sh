@@ -6,7 +6,7 @@
 
 #
 # Set default algorithm variables as global variables
-#  Useage:
+#  Usage:
 #    set_default_algorithm_variables
 #
 
@@ -32,7 +32,7 @@ set_default_algorithm_variables(){
 #  but requires the string to be evaled before being passed into bc.
 #  Worth it!
 #
-#  Useage:
+#  Usage:
 #    parsed_eqn=$( parse_eqn "$eqn_string" )
 #
 parse_eqn(){
@@ -49,7 +49,7 @@ parse_eqn(){
 
 #
 # echo hare equation string
-#  Useage:
+#  Usage:
 #   some_var=$( hare_update_string )
 #
 hare_update_string(){
@@ -77,7 +77,7 @@ echo $hare_update_string
 
 #
 # echo puma update string
-#  Useage:
+#  Usage:
 #   some_var=$( puma_update_string )
 #
 puma_update_string(){
@@ -109,7 +109,7 @@ echo $puma_update_string
 # Update Function
 #   WARNING: SLOW!
 #
-#  Useage:
+#  Usage:
 #    update_densities land_array_name hare_array_name puma_array_name
 #
 update_densities(){

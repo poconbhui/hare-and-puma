@@ -7,7 +7,7 @@ source $hare_puma_install_path/diffusion.sh
 #
 # MAIN FUNCTION
 #
-# Useage:
+# Usage:
 #   main config_filename
 #
 

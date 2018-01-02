@@ -7,7 +7,7 @@
 #
 # processes input file dropping lines starting with #
 #
-#  Useage:
+#  Usage:
 #    file_contents=$( process_input_file filename )
 #
 process_input_file(){

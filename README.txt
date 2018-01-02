@@ -8,7 +8,7 @@
  dH/dt = rH - aHP + k(d2H/dx2 + d2H/dy2)
  dP/dt = bHP - mP + l(d2P/dx2 + d2P/dy2)
  
- Useage:
+ Usage:
    hare_puma.sh config_file
  
  Config file:

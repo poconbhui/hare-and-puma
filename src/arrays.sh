@@ -8,7 +8,7 @@
 # wrapper function for array operations.
 # arrays are stored in format: [width, height, value, value, value...]
 #
-# Useage:
+# Usage:
 #   array set array_name width height value value value...
 #   array array_name x y new_value
 #   array_name_x_y=$( array array_name x y )
@@ -44,7 +44,7 @@ array(){
 #
 # echos the extent of a given dimension of a given array
 #
-#  Useage:
+#  Usage:
 #    dim_extent=$( array_dim array_name dim )
 #
 array_dim(){
@@ -60,7 +60,7 @@ array_dim(){
 # echos out distance of element x,y from the start of an array of
 #   dimension width,height
 #
-#  Useage:
+#  Usage:
 #    array_offset width height x y
 #
 array_offset(){
@@ -71,7 +71,7 @@ array_offset(){
 #
 # echos out element x,y of given array
 #
-#  Useage:
+#  Usage:
 #    array_access array_name x y
 #
 array_access(){
@@ -87,7 +87,7 @@ array_access(){
 
 #
 # Sets given x y element of given array to given value
-#  Useage:
+#  Usage:
 #    array_set array_name x y value
 #
 array_set(){
@@ -106,7 +106,7 @@ array_set(){
 
 #
 # echos the input array padded on the edges with 0s
-#  Useage:
+#  Usage:
 #    padded_array=( $(pad_array array_name) )
 #
 pad_array(){
@@ -139,7 +139,7 @@ pad_array(){
 
 #
 # echos the input array. Useful for outputting to stdout
-#  Useage:
+#  Usage:
 #    print_array array_name
 #
 print_array(){

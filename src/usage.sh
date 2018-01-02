@@ -3,10 +3,10 @@
 #
 # echo help message for hare_puma.sh
 #
-#  Useage:
-#    useage_message
+#  Usage:
+#    usage_message
 #
-useage_message(){
+usage_message(){
 cat <<"EOF"
  
  hare_puma calculates the following PDEs for the distribution of hares and
@@ -15,7 +15,7 @@ cat <<"EOF"
  dH/dt = rH - aHP + k(d2H/dx2 + d2H/dy2)
  dP/dt = bHP - mP + l(d2P/dx2 + d2P/dy2)
  
- Useage:
+ Usage:
    hare_puma.sh config_file
  
  Config file:

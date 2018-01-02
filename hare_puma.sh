@@ -2,11 +2,11 @@
 hare_puma_install_path=src
 
 
-source $hare_puma_install_path/useage.sh
+source $hare_puma_install_path/usage.sh
 
-# if -h passed in, print useage message and die
+# if -h passed in, print usage message and die
 if [[ "$1" == "-h" ]]; then
-  useage_message
+  usage_message
   exit 1;
 fi
 
